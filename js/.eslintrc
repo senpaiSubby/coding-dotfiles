@@ -1,0 +1,36 @@
+{
+  "extends": ["plugin:prettier/recommended", "eslint:recommended"],
+  "plugins": ["prettier", "header"],
+  "parserOptions": {
+    "ecmaVersion": 2020
+  },
+  "env": {
+    "commonjs": true,
+    "es6": true,
+    "node": true
+  },
+  "rules": {
+    "brace-style": "warn",
+    "capitalized-comments": "warn",
+    "forin": "off",
+    "import-name": "off",
+    "jsdoc-format": "off",
+    "lines-between-class-members": "warn",
+    "max-classes-per-file": "off",
+    "no-increment-decrement": "off",
+    "prefer-arrow-callback": "warn",
+    "prefer-const": "warn",
+    "prefer-template": "warn",
+    "prettier/prettier": "warn",
+    "header/header": [
+      "warn",
+      "block",
+      [
+        "-------------------------------------------------------",
+        "- Coded by CallMeKory - https://github.com/callmekory   -",
+        "- It’s not a bug – it’s an undocumented feature.        -",
+        "-------------------------------------------------------"
+      ]
+    ]
+  }
+}

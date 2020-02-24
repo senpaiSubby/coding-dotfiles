@@ -1,0 +1,16 @@
+{
+  "devDependencies": {
+    "@types/node": "^13.1.4",
+    "@types/node-fetch": "^2.5.4",
+    "@types/node-os-utils": "^1.1.0",
+    "prettier": "^1.19.1",
+    "ts-node-dev": "^1.0.0-pre.44",
+    "tslint": "^5.20.1",
+    "tslint-config-airbnb": "^5.11.2",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-lines-between-class-members": "^1.3.6",
+    "tslint-plugin-prettier": "^2.1.0",
+    "typescript": "^3.7.4",
+    "typescript-memoize": "^1.0.0-alpha.3"
+  }
+}
